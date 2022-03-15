@@ -1,0 +1,21 @@
+:root {
+  --primary-white: #fff;
+  --logo-color: #c77dff;
+}
+.nav a.nav-link {
+  /* font-weight: 500; */
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+.navbar-brand {
+  color: var(--logo-color) !important;
+}
+
+.navbar-nav > li > a {
+  color: var(--primary-white) !important;
+  margin-left: 0.75rem;
+}
+/* .navbar-nav > li > a.active, */
+.navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid #c77dff;
+}
