@@ -8,7 +8,7 @@ import { RiBarChartHorizontalLine } from "react-icons/ri";
 function Navbar() {
   let iconStyle = { color: "#fff" };
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav className="navbar navbar-expand-lg">
       <div className="container">
         <a className="navbar-brand" href="#">
           Habeeb.

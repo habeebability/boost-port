@@ -1,0 +1,16 @@
+.port-btn {
+  border-radius: 10%;
+  padding: 0.2rem 0.5rem;
+  outline: none !important;
+}
+
+@media screen and (min-width: 768px) {
+  .port-btn {
+    padding: 0.4rem 1rem;
+  }
+}
+.port-btn:focus {
+  background-color: blueviolet;
+  color: #fff;
+  outline: none !important;
+}

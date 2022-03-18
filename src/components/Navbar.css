@@ -2,6 +2,11 @@
   --primary-white: #fff;
   --logo-color: #c77dff;
 }
+
+.navbar {
+  background-color: rgb(22, 28, 45) !important;
+  z-index: 3;
+}
 .nav a.nav-link {
   /* font-weight: 500; */
   letter-spacing: 0.0375rem;
@@ -16,6 +21,27 @@
   margin-left: 0.75rem;
 }
 /* .navbar-nav > li > a.active, */
-.navbar-nav > li > a:focus {
-  border-top: 0.1875rem solid #c77dff;
+/* .navbar-nav > li > a:focus {
+} */
+.navbar-nav > li > a:focus::before {
+  border-left: 0.1875rem solid #c77dff;
+  content: "";
+  padding-right: 4px;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .navbar-nav > li > a:focus {
+    border-top: 0.1875rem solid #c77dff;
+  }
+  .navbar-nav > li > a:focus::before {
+    border-left: none;
+    content: "";
+    padding-right: 4px;
+  }
 }

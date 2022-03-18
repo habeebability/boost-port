@@ -1,0 +1,9 @@
+.portfolio {
+  height: 95vh;
+  color: #fff;
+}
+
+.menu-div {
+  display: grid;
+  place-items: center;
+}
